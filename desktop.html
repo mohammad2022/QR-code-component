@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    *{box-sizing: border-box;margin: 0;padding: 0;}
+    body{font-family: outfit,sans-serif;}
+    .main{background: hsl(212, 45%, 89%);}
+    .body{width: 375px; margin: 0 auto 0;padding: 80px 0;}
+    .body .box{background: hsl(0, 0%, 100%);width: 85%;margin: 0 7.5%;border-radius: 15px;
+      padding: calc(42.5% - 145px);}
+    .body .box img{width: 290px;border-radius: 10px;}
+    .body .box h1{text-align: center;color: hsl(218, 44%, 22%);font-size: 22px;max-width: 260px;
+      margin: 15px auto;}
+    .body .box p{margin: 0 auto auto ;max-width: 280px; text-align: center;color: hsl(220, 15%, 55%);font-size: 15px;}
+    @font-face{
+        font-family: outfit;
+        src: url("fonts/static/Outfit-Regular.ttf");
+        font-weight: 400;
+    }
+    @font-face{
+        font-family: outfit;
+        src: url("fonts/static/Outfit-Bold.ttf");
+        font-weight: 700;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="main">
+    <div class="body">
+      <div class="box">
+          <img src="images/image-qr-code.png" alt="">
+          <h1>Improve your front-end skills by building projects</h1>
+          <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+</div>
+<div class="attribution">Challenge by 
+  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://www.frontendmentor.io/profile/mohammad2022">Mohammad</a>.
+</div>
+</body>
+</html>
